@@ -3,7 +3,7 @@ import smtplib as s
 ob = s.SMTP("smtp.gmail.com",587)
 ob.ehlo()
 ob.starttls()
-ob.login('akshatvashishtt@gmail.com','Sargam11!')
+ob.login('akshatvashishtt@gmail.com','-----')
 subject = "Daily reminder"
 body = "Hello, How are you Akshat. If you read this, the python code is successful"
 message = "subject:{}\n\n".format(subject,body)
